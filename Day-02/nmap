@@ -1,0 +1,21 @@
+Nmap is already installed and ready to use in Kali Linux. You can start using it by opening the terminal and typing `nmap` followed by the desired options and target.
+
+Here's an example of using Nmap to scan a target IP address:
+
+```bash
+nmap <target_ip>
+```
+
+Replace `<target_ip>` with the IP address of the target you want to scan. This command will perform a basic port scan and display the open ports and services running on those ports.
+
+Nmap has a vast array of options and features that you can explore based on your specific requirements. It's a powerful tool for network security and can be a valuable asset in penetration testing and vulnerability assessment efforts.
+
+Remember to use Nmap responsibly and ethically, as it should only be used for authorized and lawful purposes.
+
+Here's an example command to scan a target IP address with additional options:
+
+```bash
+nmap -sV -sC -A <target_ip>
+```
+
+This command will perform a more comprehensive scan, including service and version detection, script scanning, and aggressive scanning. It will provide a detailed report of the target's network configuration and security posture.
