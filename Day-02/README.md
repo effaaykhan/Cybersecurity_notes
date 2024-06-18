@@ -137,12 +137,13 @@ hydra can be used to perform various types of attacks, such as password guessing
 ## Enum4linux
 - enum4linux is a tool for enumerating information from Windows and Samba systems. It is a command-line tool that can be used to gather information about the target system, such as usernames, password policies, shares, and more.
 
+### Installation
 To install enum4linux in Kali Linux, you can use the following command:
 
 ```
 sudo apt-get install enum4linux
 ```
-
+### Usage
 Once installed, you can use enum4linux to enumerate information from a target system. Here's an example of how to use enum4linux:
 
 ```
