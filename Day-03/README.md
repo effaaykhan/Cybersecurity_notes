@@ -19,8 +19,8 @@
 
   ### Linux Enumeration
   - In linux enumeration, I found the hidden directory and username for the given machine
-  - To find the hidden directory i used the tool namely gobuster which is already discussed in Day-02
-  - To find the username i used enum4linux
+  - To find the hidden directory i used the tool namely gobuster which is already discussed in [Day-02](https://github.com/effaaykhan/Cybersecurity_notes/tree/main/Day-02)
+  - To find the username i used enum4linux which is already discussed in [Day-02](https://github.com/effaaykhan/Cybersecurity_notes/tree/main/Day-02)
  
   ### Brute Forcing
   - After successfully identifying the username I used hydra to brute force the username and successfully found the password.
